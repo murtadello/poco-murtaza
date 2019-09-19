@@ -1,4 +1,7 @@
 
 h1{
     font-family: 'Space Mono', monospace; 
+    text-transform: lowercase;
+    text-shadow: 20px;
+   
 }
