@@ -25,7 +25,7 @@ body{
 }
 .menu-bar ul li a{
     text-decoration: none;
-    color: white;
+    color: thistle;
 }
 .active, .menu-bar ul li:hover{
     color: red;
@@ -34,7 +34,8 @@ body{
 .menu-bar .active{
     border-top: 1px solid red;
     border-bottom: 1px solid red;
+    
 }
 .menu-bar ul li a:hover{
-    color: red;
+    color:white;
 }
