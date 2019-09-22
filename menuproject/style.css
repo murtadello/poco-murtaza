@@ -30,7 +30,7 @@ body{
     text-decoration: none;
     color: white;
 }
-.active, .menu-bar ul li:hover{
+.active, .menu-bar ul:hover{
     background:#2bab0d;
     border-radius: 3px;
 
