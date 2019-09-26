@@ -1,0 +1,80 @@
+:root{
+    --func:black;
+}
+
+
+
+
+
+body{
+    padding: 0;
+    margin: 0;
+    background:linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    animation: gradientBG 5s ease infinite;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 0.2fr 1fr;
+    grid-template-areas: 
+    "header header"
+    "asid main"
+    "asid main"
+    "footer footer"
+
+}
+.header{
+    grid-area: header;
+    background-color: gray;
+    background-image: url(header.jpg);
+    background-size: cover;
+    height: 100px;
+    overflow: hidden;
+}
+video{
+    width: 100%;
+    position: relativ;
+    top: 0;
+    left:0;
+    margin: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    
+}
+.grid h1{
+    text-align: center;
+    color: white;
+    background-color: white;
+}
+.asid{
+    grid-area: asid;
+    background-color: var(--func);
+}
+.main{
+    grid-area: main;
+    background-color: antiquewhite;
+}
+.footer{
+    grid-area: footer;
+    background-image: url(f.jpg);
+    height: 100px;
+}
+
+
+
+
+
+
+@keyframes gradientBG {
+    0% {
+     background-position: 0% 50%; 
+    }
+    50% {
+     background-position: 100% 50%;
+    }
+    100% {
+     background-position: 0% 50%;
+    }
+   }

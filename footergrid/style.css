@@ -1,0 +1,39 @@
+body{
+    min-height: 100vh;
+    position: static;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+header{
+    background-color:hsl(60, 30%, 80%);
+
+}
+
+}
+main{
+    padding-bottom: 1rem;
+}
+footer{
+    background-color:hsl(60, 30%, 80%);
+    position: static;
+   
+    
+
+
+}
+/*@supports (display: grid){
+    body{
+        position: static;
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+
+    }
+    main{
+        padding-bottom: 1rem;
+    }
+    footer{
+        position: static;
+
+
+    }
+*/

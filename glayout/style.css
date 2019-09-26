@@ -1,0 +1,19 @@
+body{
+    background: gray;
+    background-position: center;
+    
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 70% 29%;
+    grid-gap: 1em;
+}
+.wrapper >div{
+    background:#eee;
+    padding: 1em;
+}
+
+.wrapper >div:nth-child(odd){
+    background:#ddd;
+}

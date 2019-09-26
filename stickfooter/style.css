@@ -1,0 +1,50 @@
+html,body{
+    margin:0;
+    font-family: Helvetica;
+}
+header, section, article, footer, p,main,h1,h2,h3,h4{
+    margin:0;
+    padding: 0;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    background: #f4fff8;
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+section header > h1{
+    padding:1rem 0 1rem 0;  
+    font-size:1rem;
+}
+article p{
+    margin-top:1.4rem;
+    line-height: 1.6;
+}
+section{
+    display: block;
+    width:90%;
+    background:#fff;
+    padding:0 1rem 1rem 1rem;
+    margin:0 auto;
+    margin-bottom:0;
+    box-shadow: 2px 0 4px 1px rgba(0, 0, 0, 0.03);
+}
+body>header, body>footer{
+    background:#61c985;
+    color:#fff;
+    padding:1rem 0;
+    text-align: center;
+    margin-top:0;
+}
+
+.content{
+    flex:1 0 auto;
+   
+}
