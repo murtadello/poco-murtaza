@@ -73,6 +73,7 @@
 
 }
 @keyframes car {
+    
     100%{
         transform: translateX(-1px);
 
@@ -85,7 +86,7 @@
         transform: translateX(-1px);
         
     }
-
+    
 }
 .wheels
 {

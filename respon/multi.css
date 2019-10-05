@@ -1,0 +1,5 @@
+main{
+    column-gap: 3em;
+    column-width: 250px;
+    column-rule: 3px solid black;
+}

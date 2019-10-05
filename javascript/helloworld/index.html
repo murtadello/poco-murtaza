@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Firstproject</title>
+   <script>
+       function myfunction(){
+           document.getElementById('demo').innerHTML="Paragraph changed";
+       }
+       function multip(num1, num2){
+           let result=num1*num2;
+           document.write(result);
+       }
+       function printmessage(){
+           let name='ali';
+           if(name='ali'){
+               alert("You are the owner of this acount");
+           }
+           else if(name='murtaza'){
+               alert("you are a user, you can not login into this acoutn");
+           }
+           else{
+               alert("you should first create an acount");
+           }
+
+       }
+       
+
+       
+       
+   </script>
+</head>
+<body>
+     <h1>JS can change the style of an HTML</h1>  
+     <p id="demo">Click on the button below to make me bigger</p>
+     <button type="button" onclick="myfunction()">Try it</button>    
+     <button type="button" onclick="multip(12,3)">Multiply</button>
+     <button type="button" onclick="printmessage()">Print message</button>
+
+</body>
+</html>

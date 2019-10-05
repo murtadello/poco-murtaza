@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.firstheader{
+    background-color: blue;
+    min-height: 4vh;
+    
+    
+}
+.secondheader{
+    background: lightblue;
+    width: 100vw;
+    min-height: 5vh;
+
+}
+.content{
+    background: yellow;
+    width: 100vw;
+    min-height: 40vh;
+
+
+}
+.signup{
+    background: orange;
+    width: 100vw;
+
+
+}
+.feat1{
+    background: lightcoral;
+    width: 100vw;
+
+}
+.feat2{
+    background: red;
+    width: 100vw;
+
+}
+.feat3{
+    background: gray;
+    width: 100vw;
+}
+
+
+/*-------------------------------------------mobile version---------------------------*/
+@media (max-width:399px) {
+    .firstheader{
+        flex-grow: 2;
+    }
+    .secondheader{
+        flex-grow: 2;
+    }
+    .content{
+        flex-grow: 2;
+    }
+    .signup{
+        flex-grow: 2;
+        
+
+    }
+    .feat1{
+        flex-grow: 2;
+       
+    }
+    .feat2{
+        flex-grow: 2;
+        
+    }
+    .feat3{
+        flex-grow: 2;
+        
+    }
+    
+}
+
+/*------------------------------------for ipad version-------------------------------*/
+@media (min-width: 400px) and (max-width:700px) {
+    .firstheader{
+        flex-grow: 2;
+    }
+    .secondheader{
+        flex-grow: 2;
+    }
+    .content{
+        flex-grow: 2;
+    }
+    .signup{
+        flex-grow: 1;
+        width: 49vw;
+
+    }
+    .feat1{
+        flex-grow: 1;
+        width: 49vw;
+    }
+    .feat2{
+        flex-grow: 1;
+        width: 49vw;
+    }
+    .feat3{
+        flex-grow: 1;
+        width: 49vw;
+    }
+    
+}
+/*---------------------------------------------PC version--------------------------------------*/
+@media (min-width:700px){
+    .firstheader{
+        flex-grow: 2;
+        
+    }
+    .secondheader{
+        flex-grow: 2;
+    }
+    .content{
+        flex-grow: 2;
+        order: 6;
+    }
+    .signup{
+        flex-grow: 1;
+        order: 5;
+        width: 100vw;
+    }
+    .feat1{
+        flex-grow: 1;
+        width: 20vw;
+    }
+    .feat2{
+        flex-grow: 1;
+        width: 20vw;
+    }
+
+    .feat3{
+        flex-grow: 1;
+        width: 20vw;
+    }
+}
