@@ -1,0 +1,101 @@
+p::first-line{
+    text-transform: uppercase;
+    color:blue;
+
+}
+
+p::after{
+    content:"";
+    background: black;
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+}
+
+a:link{
+    display: block;
+    color: green;
+    margin-bottom: 1em;
+}
+a:visited{
+    color:gray;
+
+}
+a:hover{
+    color: red;
+    text-decoration: none;
+}
+a:active{
+    color: black;
+    text-decoration: none;
+}
+a:first-child{
+    opacity: 1;
+    transition: opactiy 500ms ease-in-out;
+   
+
+}
+a:first-child:hover{
+    opacity: 0.5;
+    transition: opactiy 2s ease-in-out 500ms;
+    
+}
+a:hover::after{
+    content: ">";
+}
+
+
+:required{
+    border: 3px solid black;
+
+}
+:empty{
+    background: lightpink;
+}
+:not(:empty){
+    background: white;
+}
+:invalid{
+    border-color: red;
+}
+:valid{
+    border-color: green;
+    background:white;
+}
+label{
+    cursor: pointer;
+}
+input[type="checkbox"]{
+    display: none;
+}
+:checked{
+    background: green;
+}
+input[type="checkbox"] + label::before,
+.checkbox::before{
+    border: 2px solid black;
+    content: "";
+    display: inline-block;
+    margin-right: 0.5em;
+    height: 1em;
+    width: 1em;
+
+}
+input[type="checkbox"]:checked + label::before,
+:checked::before{
+    background: green;
+}
+
+
+.square{
+    margin: 5em;
+    height: 5em;
+    width: 5em;
+    background-color: aqua;
+    transform: rotate(45deg) translate(2em, 2em) skew(25deg, 10deg) scale(34deg);
+    transition: transform 2s ease-in-out;
+}
+.square:hover{
+    transform: rotate(0);
+    transform: rotate(0deg) translate(0,0) skew(0,0) scale(5);
+}

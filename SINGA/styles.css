@@ -78,7 +78,7 @@ header a:hover{
     transform-style: preserve-3d;
 }
 .content-carrousel:hover{
-    animation-play-state: paused;
+    animation-play-state: running;
     cursor: pointer;
 
 }
