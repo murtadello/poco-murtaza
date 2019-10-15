@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>My Book List</h1>
+    
+    <ul id="booklist">
+
+    </ul>
+
+    <script>
+        var books = [{
+        title: 'The Design of EveryDay Things',
+        author: 'Don Norman',
+        alreadyRead: false
+    }, {
+        title: 'The Most Human Human',
+        author: 'Brian Christian',
+        alreadyRead: true
+    }
+    ];
+
+    let bks = document.getElementById("booklist");
+    let image1=document.getElementById("image");
+    
+    
+    for (i = 0; i < books.length; i++) {
+        let book = books[i];
+        let li = document.createElement("li");
+        li.textContent = book.title + ' ' + book.author+ ' '+ book.image;
+        let image=document.createElement("img");
+       li.appendChild(image);
+        
+        bks.appendChild(li);
+        
+        
+
+
+        
+        
+        
+        
+
+       
+    }
+
+
+    </script>
+
+</body>
+</html>

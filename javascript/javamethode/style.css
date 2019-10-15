@@ -1,0 +1,14 @@
+main{
+    border: 1px solid red;
+    height: 90vh;
+    position: relative;
+    width: 700px;
+}
+section{
+    background-color: aqua;
+    width: 5em;
+    position: absolute;
+    height: 5em;
+    left: 0;
+    top: 50px;
+}
