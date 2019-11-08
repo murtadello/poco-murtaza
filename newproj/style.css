@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#map{
+    height: 500px;
+    width: 100%;
+}
+
+#header{
+    background-color:#fff;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+}
+#header img{
+    width: 100%;
+    padding-top: 20px;
+    float: left;
+}
+
+.navbar-nav li a{
+    float: right;
+    color: #000!important;
+}
+.navbar{
+    background-color: yellow;
+}
